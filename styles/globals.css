@@ -1,16 +1,61 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Lato:wght@300&family=Montserrat:wght@500&family=Rubik:wght@400;600;700&family=Ubuntu&display=swap");
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Rubik, Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Border radius 50% */
+
+.border-radius-50 {
+  border-radius: 50%;
+}
+
+/* Margin Right */
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-right-md {
+  margin-right: 2rem !important;
+}
+
+.margin-right-lg {
+  margin-right: 2.5rem !important;
+}
+
+/* Flex */
+
+.flex-1 {
+  display: flex;
+}
+
+/* Flext Center (flex-h-center, flex-v-center) */
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Template Columns */
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
 }
