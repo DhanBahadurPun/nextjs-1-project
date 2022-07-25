@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import classes from "./hero.module.css";
-import eat from "../../public/images/eat.jpg";
+import eat from "../../public/images/eat.png";
 import img1 from "../../public/images/29.jpg";
 import img2 from "../../public/images/32.jpg";
 import img3 from "../../public/images/36.jpg";
@@ -15,7 +15,7 @@ function HeroSection() {
       <section className={classes["section-hero"]}>
         <div className={`${classes["hero"]} grid--2--cols`}>
           <div className={classes["hero-text-box"]}>
-            <h1 className={classes["heading-primary"]}>
+            <h1 className={`heading-primary`}>
               A healthy meal delivered to your door, every single day
             </h1>
             <p className={classes["hero-description"]}>
@@ -115,8 +115,8 @@ function HeroSection() {
               src={eat}
               alt="short description about image"
               objectFit="cover"
-              height={400}
-              width={500}
+              height={500}
+              width={600}
             />
           </div>
         </div>

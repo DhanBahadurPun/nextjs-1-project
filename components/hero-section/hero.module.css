@@ -12,15 +12,6 @@
   gap: 9.6rem;
 }
 
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
-
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -37,7 +28,8 @@
   text-decoration: none;
 
   /* Put transition on original state */
-  transition: background-color 0.3s ease-in;
+  /* transition: background-color 0.3s ease-in; */
+  transition: all 0.3s ease-in;
 }
 
 .down-icon {
