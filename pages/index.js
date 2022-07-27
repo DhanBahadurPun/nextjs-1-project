@@ -4,6 +4,7 @@ import FeaturedSection from "../components/featured/featured";
 import HeroSection from "../components/hero-section/hero";
 import SectionHow from "../components/how-section/how-section";
 import MealSection from "../components/meal/meal";
+import Testimonial from "../components/testimonial/testimonial";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <FeaturedSection />
       <SectionHow />
       <MealSection />
+      <Testimonial />
     </>
   );
 }

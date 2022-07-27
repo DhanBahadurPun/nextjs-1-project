@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: Rubik, Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: "Rubik", Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   line-height: 1;
@@ -116,7 +116,7 @@ strong {
   align-items: center;
 }
 
-.grid--2--cols {
+.grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 

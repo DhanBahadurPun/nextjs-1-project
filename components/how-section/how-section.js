@@ -13,9 +13,7 @@ function SectionHow() {
         </h2>
       </div>
 
-      <div
-        className={`${classes["container"]} grid grid--2--cols grid-center-v`}
-      >
+      <div className={`${classes["container"]} grid grid-2-cols grid-center-v`}>
         {/* Step 01 */}
         <div className={classes["step-text-box"]}>
           <p className={classes["step-number"]}>01</p>

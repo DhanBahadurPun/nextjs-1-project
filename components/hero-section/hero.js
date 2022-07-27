@@ -13,7 +13,7 @@ function HeroSection() {
   return (
     <>
       <section className={classes["section-hero"]}>
-        <div className={`${classes["hero"]} grid--2--cols`}>
+        <div className={`${classes["hero"]} grid-2-cols`}>
           <div className={classes["hero-text-box"]}>
             <h1 className={`heading-primary`}>
               A healthy meal delivered to your door, every single day
